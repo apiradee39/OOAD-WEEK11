@@ -135,7 +135,104 @@ note left of year : 12 months = 1 year
 
 
 
+# OOAD-WEEK11
 
+รูปภาพที่ 1 Taxi
+```
+@startuml
+
+title Taxi
+start
+:Man;
+:Call;
+:Tellplace;
+:Taxi;
+stop
+@enduml
+```
+
+![](http://www.plantuml.com/plantuml/img/SoWkIImgAStDuU8goIp9ILK8IQp8v08BSbdv9kPPSrav9-Ra0AcGr9oSWfp4v5GG6wZ86gWglu3B8JKl1QWT0000)
+
+
+รูปที่ 2 Pass Homework
+```
+@startuml
+
+title Pass Homework
+
+:Teacher;
+:Me;
+:Do;
+:Homework;
+:Pass;
+:Teacher;
+@enduml
+```
+
+![](http://www.plantuml.com/plantuml/img/SoWkIImgAStDuU8goIp9ILK8I2mkLl38pqqjpo_AvkAo2abDJCv8BRBcil9D1H8k-K029WraWfHR8wdYud98pKi1cWS0)
+
+
+รูปที่ 3   Certification Process
+
+```
+@startuml
+
+title Certification Process
+
+:Application;
+:Documentation Review;
+:Assessment Planning;
+:Certification Assessment;
+:Certification Approve;
+:Surveillance Visit;
+:Re-certificate Audit;
+note left 
+if it flase redo again
+end note
+@enduml
+```
+
+![](http://www.plantuml.com/plantuml/img/POz12i8m44NtSugvW1UecnOzGAdWFgIJCf1EGZAfrtU2eeYxp_kF3t-iwegsFG8eQoIyK54Ex9ro4fnBybGhm33b7D_q3CCr-RQJwCjQw61w69vgDRiNE4Sdmh8P_PtyElzLpYKTPFpMoa4SRSCJthbobnSw-OzFEBMrOqcM8mL5u82i6AAhX8NMX6vpB42oOhS0OBHiPvy0)
+
+รูปที่ 4 KFC
+
+```
+@startuml
+
+title KFC
+start
+repeat
+  :Eat fried chicken;
+  :Drink Coke;
+repeat while (Still Hungry?)
+stop
+@enduml
+```
+
+![](http://www.plantuml.com/plantuml/img/BOr12eCm44Nt_nIpr2leeeAj25ts126EPaYCCXsHthugRX-FzvglERLjJe299QPtrmAuAA2yiZCGLIzdDAhmG3w8ZvphapvLSgHsYLpVBkr1ZahnCKc9-YrF-dkKPt1PWORpSBp-)
+
+
+รูปที่ 5 Watching TV
+
+@startuml
+title Watching TV
+start
+:Select channel;
+:press;
+if (Watch) then (yes)
+  fork
+    :__Having Fun__!!!;
+  end fork
+else (no)
+  :Not Having Fun;
+  :Turn off;
+endif
+:Go To Bed;
+stop
+@enduml
+
+
+![](http://www.plantuml.com/plantuml/img/HOyz3i8m38LtdyBTsYiaIyK0J2nKC4PHwz28u5IDYyJjSSh0PEkzx_cdB-9NsLu9GA8amhkNSOxymE460BiBOAwKQ1GSPyzCoQgoh5IADZ5WksSwb9aOsm-L3X13NfzQ48rpP_-k4uyREzSqZLMTUFeXb0fXoxbcp2KB_k7AcM5R6NC85ZGIWsu-PHmo7cYozRwy0FHgwGjV)
 
 
 
